@@ -19,17 +19,15 @@ Users with Unjailbroken devices can see two different outcomes, based on what th
 If you used TrollStore to sideload PojavLauncher, good news: PojavLauncher takes advantage of the extended entitlements granted by TrollStore and automatically enables JIT when launched. **(Turn on URL Schemes)**
 
 #### Normal sideload
-If you sideload normally, you will need to enable JIT in some way. The most common method is to attach a debug server to the application while it's running - AltStore, SideStore, SideJITServer, and Jitterbug all of these use this method to enable JIT. 
+If you sideload normally, you will need to enable JIT in some way. The most common method is to attach a debug server to the application while it's running - AltStore, SideStore, StikDebug, SideJITServer, and Jitterbug all use this method to enable JIT. 
 
-The only downside to this method is that you are required to be connected to a WiFi network in order to enable JIT. (*)
-
-(*) - Enabling JIT on iOS 17.0.1+ (at the moment) can only be enabled through different various methods listed below that utilize pymobiledevice3 to enable JIT due to changes in iOS. 
+The only downside to this method is that you are often required to be connected to a Wi-Fi network in order to enable JIT. 
 
 ## What are the methods to enable JIT?
 
-The methods to enable JIT can be found [here](https://github.com/ItAnthon/JIT-on-iOS).
+The methods to enable JIT for each iOS version can be found [here](https://github.com/C4ndyF1sh/iOS-JIT-Enablers).
 
-Methods not listed here are not confirmed or recommended by us for use with PojavLauncher.
+Methods not listed underneath are not confirmed nor recommended by us for use with PojavLauncher.
 
 ## So how do I enable JIT?
 
@@ -41,9 +39,11 @@ Methods not listed here are not confirmed or recommended by us for use with Poja
 
 - [Jitterbug](https://github.com/osy/Jitterbug/tree/main/Jitterbug) ($)
 
-- [SideStore](https://docs.sidestore.io/docs/faq#can-i-activate-jit) ($)
+- [SideStore](https://docs.sidestore.io/docs/faq#can-i-activate-jit) ($), [nightly](https://github.com/SideStore/SideStore/releases/nightly) (^)
 
 - [SideJITServer](https://github.com/nythepegasus/SideJITServer) (%)
+
+- [StikDebug](https://github.com/StephenDev0/StikDebug) (^)
 
 (!) - Limited to Jailbroken devices only. (JIT is granted by the Jailbreak itself)
 
@@ -55,10 +55,8 @@ Methods not listed here are not confirmed or recommended by us for use with Poja
 
 (%) - Does not work for iOS 16.x or below, use the other methods listed above to enable JIT. This method is meant for iOS 17.0.1+
 
+(^) - iOS 17.4+ Only
+
 ## Methods coming Soon:
 
-- JITStreamer 2.0 (^)
-
 - UTM SE (^)
-
-(^) - iOS 17.4+ Only

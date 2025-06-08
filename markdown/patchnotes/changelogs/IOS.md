@@ -73,7 +73,7 @@ This release is identical to v2.0, except with a fix for issues installing on Pr
 ## 2.0 "Raw Iron"
 ### Changes
 - The Login view has been simplified to three easy buttons
-- The Offline Account has been replaced with [Local Account](https://pojavlauncherteam.github.io/updates/local.html). Installing Minecraft now requires a Mojang or Microsoft account logged in.
+- The Offline Account has been replaced with [Local Account](https://wiki.angelauramc.dev/patchnotes/LOCAL-MODE.html). Installing Minecraft now requires a Mojang or Microsoft account logged in.
 - New FAQ page to show quick answers to questions
 - New About view to show quick details, links, and update history
 - Ability to send logs from within the launcher
