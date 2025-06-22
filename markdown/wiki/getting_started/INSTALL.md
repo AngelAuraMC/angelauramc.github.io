@@ -102,7 +102,7 @@ You can follow the `Sideloading (TrollStore)` or `Sideloading (Jailed)` steps to
 
 If you want the latest and greatest to test before the official release, you can grab a copy from GitHub Actions.
 
-1. Start off by heading to the [PojavLauncher iOS](https://github.com/PojavLauncherTeam/PojavLauncher_iOS) repository and switching to the "Actions" tab.
+1. Start off by heading to the [PojavLauncher iOS](https://github.com/AngelAuraMC/Amethyst-iOS) repository and switching to the "Actions" tab.
 
 ![](./images/Actions/ios/iOS-Actions-1.png)
 

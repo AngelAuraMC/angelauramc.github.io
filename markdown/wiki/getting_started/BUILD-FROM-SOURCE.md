@@ -1,38 +1,37 @@
 # Building from source
-<!-- TODO: fix this with the correct links and names -->
 * Even though it is well-explained, building from source requires skill, internet and time.
 
 * You can try building on Android with [Termux](https://termux.dev), but no support will be included for it.
 
-* It is recommended to clone the PojavLauncher repository before starting [Setting Up JRE](BUILD_FROM_SOURCE.html#setting-up-jre)
+* It is recommended to clone the Amethyst repository before starting [Setting Up JRE](BUILD_FROM_SOURCE.html#setting-up-jre)
 
-* ```git clone https://github.com/PojavLauncherTeam/PojavLauncher```
+```bash
+git clone https://github.com/AngelAuraMC/Amethyst-Android --recurse-submodules
+```
 
 ## Setting up JRE
 
-* You can download it from [CI Auto Builds](https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch/actions) if you don't want to/can't build.
+* You can download it from [CI Auto Builds](https://github.com/AngelAuraMC/Amethyst-Android/actions) if you don't want to/can't build.
 
-* Source: [PojavLauncherTeam/android-openjdk-build-multiarch](https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch)
+* Source: [AngelAuraMC/angelauramc-openjdk-build](https://github.com/AngelAuraMC/angelauramc-openjdk-build)
 
 ### Android
 
-* Clone the git repository of PojavLauncherTeam/android-openjdk-build-multiarch
+* Clone the git repository of `AngelAuraMC/angelauramc-openjdk-build`
 
-```
-git clone https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch
+```bash
+git clone https://github.com/AngelAuraMC/angelauramc-openjdk-build
 ```
 
 * Change the directory to the cloned repository
 
-```
-cd android-openjdk-build-multiarch
+```bash
+cd angelauramc-openjdk-build
 ```
 
 * Download Android NDK r10e from [here](https://github.com/android/ndk/wiki/Unsupported-Downloads#r10e) and place it in this directory with a file explorer. (Can't automatically download because of EULA)
 
-::: warning
-Do not attempt to build using a newer or older NDK, it will lead to compilation errors.
-:::
+::: **WARNING!!** Do not attempt to build using a newer or older NDK, it will lead to compilation errors.
 
 ### iOS
 
@@ -60,60 +59,73 @@ export BUILD_IOS=0
 </template>
 <template v-slot:ios>
 
-```ios
+```bash
 export BUILD_IOS=1
 ```
 
 </template>
 </CodeSwitcher>
 
-```export BUILD_FREETYPE_VERSION=[2.10.4]```
+```bash
+export BUILD_FREETYPE_VERSION=[2.10.4]
+```
 
 ::: tip
 You can use versions **between 2.6.2 and 2.10.4** but **2.10.4** is preferred.
 :::
 
-```export JDK_DEBUG_LEVEL=[release]```
+```bash
+export JDK_DEBUG_LEVEL=[release]
+```
 
 ::: tip
 You can use **release**, **fastdebug** and **debug**, but **release** is preferred
 :::
 
-```export JVM_VARIANTS=[client]```
+```bash
+export JVM_VARIANTS=[client]
+```
 
 ::: tip
-You can use **client** and **server** variants, **Client** is for **aarch32** and **server** is for **other architectures**
+ You can use **client** and **server** variants, **Client** is for **aarch32** and **server** is for **other architectures**
 :::
 
 (Android only)
 
-```./extractndk.sh```
-
-```./maketoolchain.sh```
+```bash
+./extractndk.sh
+./maketoolchain.sh
+```
 
 ##### Get CUPS, Freetype and build Freetype
 
-```./getlibs.sh```
-
-```./buildlibs.sh```
+```bash
+./getlibs.sh
+./buildlibs.sh
+```
 
 ##### Clone JDK, run once
 
-```./clonejdk.sh```
+```bash
+./clonejdk.sh
+```
 
 ##### Configure JDK and build
 
-```./buildjdk.sh```
+```bash
+./buildjdk.sh
+```
 
 ::: tip
-If no configuration is changed, run ```sh makejdkwithoutconfigure.sh``` instead
+If no configuration is changed, run `sh makejdkwithoutconfigure.sh` instead
 :::
 
 ##### Pack the built JDK
 
-```./removejdkdebuginfo.sh```
-
-```./tarjdk.sh```
+```bash
+./removejdkdebuginfo.sh
+./tarjdk.sh
+```
 
 ## LWJGL
 
@@ -170,14 +182,14 @@ gradle :jre_lwjgl3glfw:build
 <template v-slot:win>
 
 ```win
-./gradlew.bat :app_pojavlauncher:assembleDebug
+./gradlew.bat :app_amethyst:assembleDebug
 ```
 
 </template>
 <template v-slot:linuxmac>
 
 ```linuxmac
-./gradlew :app_pojavlauncher:assembleDebug
+./gradlew :app_amethyst:assembleDebug
 ```
 
 </template>

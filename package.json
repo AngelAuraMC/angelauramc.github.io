@@ -1,18 +1,18 @@
 {
   "name": "PojavLauncher",
   "version": "1.1.0",
-  "description": "pojavlauncherteam.github.io",
+  "description": "angelauramc.github.io",
   "scripts": {
     "start": "vuepress dev markdown",
     "build": "vuepress build markdown"
   },
-  "repository": "https://github.com/PojavLauncherTeam/pojavlauncherteam.github.io",
+  "repository": "https://github.com/AngelAuraMC/angelauramc.github.io",
   "keywords": [
     "VuePress",
     "Gitlab",
     "Pages"
   ],
-  "author": "PojavLauncherTeam",
+  "author": "AngelAuraMC",
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",

@@ -12,9 +12,10 @@ Current issues, as of the Gladiolus update:
 - 3d shareware build is broken with gl4es due to shader compilation errors.
 
 ## iOS
+
 Current issues, as of the v2.2 Deepslate update:
 
  - v2.2 Deepslate will not open versions of minecraft past 1.20 (*)
  - v2.2 Deepslate does not have Java 21. (*)
 
-(*) - To fix these issues, please use [the most recent github actions developer build](https://nightly.link/PojavLauncherTeam/PojavLauncher_iOS/workflows/development/main/net.kdt.pojavlauncher-ios.ipa.zip).
+(*) - To fix these issues, please use [the most recent github actions developer build](https://nightly.link/AngelAuraMC/Amethyst-iOS/workflows/development/main/net.kdt.Amethyst-ios.ipa.zip).

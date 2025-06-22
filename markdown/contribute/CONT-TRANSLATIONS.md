@@ -10,7 +10,7 @@
 
 * After you sign up on Crowdin and join the project, you can start translating the strings. 
 
-* First, on the project page, you should select the language you want to translate PojavLauncher into. 
+* First, on the project page, you should select the language you want to translate Amethyst into.
 
 * Then, you will see the files to be translated. After the name of each file, you can see the translation progress of that file. The blue bar represents the progress of translated strings, and the green bar represents the progress of approved strings.
 
@@ -19,7 +19,7 @@
 ## What to translate and what not to translate?
 
 ::: warning
-Things not to translate: PojavLauncher, codes like ```<1>, </0>, \n, %s, %.2f, %1$s, %@```, arrows like ◀, 
+Things you shouldn't translate: Amethyst, codes like `<1>`, `</0>`, `\n`, `%s`, `%.2f`, `%1$s`, `%@`, and arrows like `◀`.
 :::
 
 * Except for the list above, you can translate anything else.

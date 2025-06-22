@@ -7,9 +7,9 @@ Vuepress is a static website generator, although it looks really good. It takes 
 
 ## How do I contribute?
 Simple: 
-* Fork [this repository](https://github.com/PojavLauncherTeam/pojavlauncherteam.github.io).
+* Fork [this repository](https://github.com/AngelAuraMC/angelauramc.github.io).
 
-* Click on "Edit this page" on any page, then edit the markdown file with your properly tuned syntax (using Discord? You already know Markdown), then save and commit. It's that easy. 
+* Click on "Edit this page" on any page, then edit the markdown file with your properly tuned syntax (using Discord? You already know Markdown), then save and commit. It's that easy.
 
 * If you want to see your changes on your fork, you'll have to either
 

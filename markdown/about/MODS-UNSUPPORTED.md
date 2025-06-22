@@ -14,6 +14,7 @@ Not everything that works on PC works on PojavLauncher. Below is a non-exhaustiv
 - [Iris](https://www.curseforge.com/minecraft/mc-mods/irisshaders), [Iris Installer](https://irisshaders.net/download)
 - [OptiFine](https://optifine.net/home)
 	- Render Regions don't work
+
 - **Optifine Shaders:** The only supported shaders are [Open4ES](https://www.mediafire.com/folder/cp87zpb3ichj7/Open4ES) for GL4ES. It works best with Adreno graphics (found in Qualcomm Snapdragon SoCs) and PowerVR graphics, with required patches (found in several low-end MediaTek SoCs). Mali GPUs are not supported. Below is a list of smartphones that are tested and works with Open4ES:
 	- **Xiaomi Poco F3** (Snapdragon 870)
 	- **Xiaomi Poco X5 Pro** (Snapdragon 778G)
@@ -94,6 +95,7 @@ Not everything that works on PC works on PojavLauncher. Below is a non-exhaustiv
 - [3arthh4ck](https://github.com/3arthqu4ke/3arthh4ck) 
 	- [Patched](https://www.mediafire.com/file/n7ey56j5aued7r0/3arthh4ck-1.8.7-release.jar/file) version
 - [Ares Client](https://www.aresclient.com/)
+
 # Credits
 
 - https://github.com/Mathias-Boulay/ and all the people in issue [#1948](https://github.com/PojavLauncherTeam/PojavLauncher/issues/1948)

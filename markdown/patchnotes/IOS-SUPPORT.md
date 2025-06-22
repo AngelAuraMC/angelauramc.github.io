@@ -1,9 +1,9 @@
-# System support in future versions of PojavLauncher iOS
-*This announcement will be covering the next 3 releases of PojavLauncher iOS.*
+# System support in future versions of Amethyst iOS
+*This announcement will be covering the next 3 releases of Amethyst iOS.*
 
-We've made some great strides with the iOS port of PojavLauncher: fixing [1.17 and newer](./OGL32.md), bringing [OpenJDK 8 to iOS](./JDK8.md), and now unveiling an [jailed variant](./UNJAIL.md). However, all of the advancements we're making also stirred up old conversations, and we've come to a final conclusion: 
+We've made some great strides with the iOS port of Amethyst: fixing [1.17 and newer](./OGL32.md), bringing [OpenJDK 8 to iOS](./JDK8.md), and now unveiling an [jailed variant](./UNJAIL.md). However, all of the advancements we're making also stirred up old conversations, and we've come to a final conclusion:
 
-**A future release of PojavLauncher will require iOS 14.0 and later.**
+**A future release of Amethyst will require iOS 14.0 and later.**
 
 ## But why?
 Supporting iOS 12.0 and newer was a feat of engineering. However, it created multiple issues with feature support and user experience. We need to verify that our code works on iOS 12 before going ahead and compiling--if it does not, this complicates our development as we are faced with two options: dropping the feature on older versions, or importing external libraries. This causes slower development times, or lack of the feature entirely for our users.
