@@ -1,7 +1,8 @@
 # Unsupported Mods and Clients (+ Workarounds/Fixes)
-Not everything that works on PC works on PojavLauncher. Below is a non-exhaustive list of mods that **may** not work, along with fixes or workarounds.
+Not everything that works on PC works on AngelAuraAmethyst. Below is a non-exhaustive list of mods that **may** not work, along with fixes or workarounds.
 
 ## Performance Mods + Shaders
+
 - [Sodium](https://modrinth.com/mod/sodium)
 	- [GL4ES Patch](https://www.mediafire.com/folder/n004fh6pxuxk8/Sodium_1.17%2B)
 	- 0.5.x and later does not work without disabling the terrain optimization mixins. It's not recommended and therefore isn't faster than Vanilla/Optifine
@@ -16,6 +17,7 @@ Not everything that works on PC works on PojavLauncher. Below is a non-exhaustiv
 	- Render Regions don't work
 
 - **Optifine Shaders:** The only supported shaders are [Open4ES](https://www.mediafire.com/folder/cp87zpb3ichj7/Open4ES) for GL4ES. It works best with Adreno graphics (found in Qualcomm Snapdragon SoCs) and PowerVR graphics, with required patches (found in several low-end MediaTek SoCs). Mali GPUs are not supported. Below is a list of smartphones that are tested and works with Open4ES:
+
 	- **Xiaomi Poco F3** (Snapdragon 870)
 	- **Xiaomi Poco X5 Pro** (Snapdragon 778G)
 	- **Xiaomi Redmi Note 8** (Snapdragon 665)
@@ -24,6 +26,7 @@ Not everything that works on PC works on PojavLauncher. Below is a non-exhaustiv
 	- [install this mod](https://www.mediafire.com/file/t9ipmw6af750efi/UNZIP-ME_DH-2.0_android-patch_fabric-forge_1.16.5-1.21.zip/file)
 
 ## Skyblock Mods
+
 - [Essential](https://essential.gg/)
 - [Skytils](https://github.com/Skytils/SkytilsMod) 
 	- [1.3.0-pre5](https://github.com/Skytils/SkytilsMod/releases/download/v1.3.0-pre5/Skytils-1.3.0-pre5.jar) works
@@ -34,12 +37,14 @@ Not everything that works on PC works on PojavLauncher. Below is a non-exhaustiv
 - [Skyblock Extras](https://sbewebsite.appspot.com/)
 
 ## Input-related Mods
+
 - [MidnightControls](https://github.com/TeamMidnightDust/MidnightControls/releases)
 - [Controllable](https://www.curseforge.com/minecraft/mc-mods/controllable)
 - [MouseTweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
 	- Almost all of them don't work because they aren't made with Android's inputs in mind
 
 ## Other Mods
+
 - [WebDisplays](https://www.curseforge.com/minecraft/mc-mods/webdisplays)
 - [Axiom](https://modrinth.com/mod/axiom)
 - [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism)

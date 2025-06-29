@@ -1,4 +1,5 @@
 # Building from source
+
 * Even though it is well-explained, building from source requires skill, internet and time.
 
 * You can try building on Android with [Termux](https://termux.dev), but no support will be included for it.

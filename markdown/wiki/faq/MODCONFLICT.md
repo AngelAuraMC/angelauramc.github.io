@@ -1,5 +1,7 @@
 # I have a mod conflict
+
 Try removing the mods by half:
+
 1. Remove half of the mods (including mods that depend on other mods from the first half)
 2. If you don't crash, put in half of the mods you just removed, then continue adding up. If you do crash, remove half of the mods you have now.
 3. Figure out which mod is causing the issue.

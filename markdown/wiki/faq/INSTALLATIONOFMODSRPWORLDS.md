@@ -1,6 +1,7 @@
 # How to install mods, Resource packs and worlds into Amethyst
 
  ## Mods
+
 1. Click on the "Create new profile" button in the version selector.
 2. Select a modding platform you want your mods to be, install any version you want.
 3. In the Amethyst menu, you will see "game directory" button, click it.
@@ -8,7 +9,7 @@
 5. Inside you will find the `mods` folder.
 6. Paste your mods there.
 
-```
+```md
 .minecraft
 │
 └─── mods
@@ -17,22 +18,26 @@
      │   ...
 ```
 
- ## Resource packs 
+## Resource packs
+
 1. In the Amethyst menu, you will see "game directory" button, click it.
 2. You will be automatically redirected to `.minecraft` folder.
 3. Inside you will find the `resourcepacks` folder.
 4. Paste your resource packs there.
 
 ## Worlds
+
 1. In the Amethyst menu, you will see "game directory" button, click it.
 2. You will be automatically redirected to `.minecraft` folder.
 3. Inside you will find the `saves` folder.
 4. Paste your world there.
 
 # Resource pack or world doesn't show up
+
 Read carefully and check the structure of the archives (zips) or folders (directories), make sure there are no additional ones.
 
 ## Resource pack
+
 **Wrong:**
 pack.zip → pack (folder) → pack.mcmeta
 pack (folder) → pack (folder) → pack.mcmeta
@@ -41,7 +46,7 @@ pack (folder) → pack (folder) → pack.mcmeta
 pack.zip → pack.mcmeta
 pack (folder) → pack.mcmeta
 
-```
+```md
 .minecraft
 │
 └─── resourcepacks
@@ -52,6 +57,7 @@ pack (folder) → pack.mcmeta
 ```
 
 ## World
+
 The world cannot be zipped inside the saves folder.
 
 **Wrong:**
@@ -61,7 +67,7 @@ The world cannot be zipped inside the saves folder.
 **Correct:**
   world (directory) → level.dat
 
-```
+```md
 .minecraft
 │
 └─── saves
