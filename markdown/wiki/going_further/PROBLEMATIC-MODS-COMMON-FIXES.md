@@ -54,11 +54,10 @@
 # Valkyrien Skies 2
 ## Android
 
-As of 2024/09/09, there is no way to run VS2 on Android in Singleplayer, so your only option is to join a VS2 server. You can host a server capable of running VS2 on Android inside Termux, but it's not very easy to setup. 
+As of 2024/09/09, there is no way to run VS2 on Android in Singleplayer, so your only option is to join a VS2 server. You can host a server capable of running VS2 on Android inside Termux, but it's hard to setup. 
 
-There's a script created by [sa1672ndo](https://github.com/sa1672ndo) that automates this entire process to make the installation easier.
-
-The script can be found [here](https://github.com/sa1672ndo/vs2termux).
+There's a script that automates this entire process to make the installation easier. The script can be found [here](https://github.com/sa1672ndo/vs2termux).
+(disclaimer: The script is no longer maintained and might not work.)
 
 **credits to [sa1672ndo](https://github.com/sa1672ndo)**
 
