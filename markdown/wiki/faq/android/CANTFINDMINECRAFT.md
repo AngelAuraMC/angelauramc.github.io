@@ -5,7 +5,8 @@ As with the log file, there are mutiple ways to do this.
 
   **/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft**
 
-1. Install [Files by Marc apps & software](https://play.google.com/store/apps/details?id=com.marc.files) from Play Store.
+1a. Press "Open game directory in Amethyst.
+1b. Install [Files by Marc apps & software](https://play.google.com/store/apps/details?id=com.marc.files) from Play Store.
 2. Press the 3 dots in the top right corner → **Show hidden files**
 3. Press the 3 lines in the top left corner → Amethyst → .minecraft
 
