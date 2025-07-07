@@ -5,7 +5,7 @@ There are mutiple ways to do this. Usually, pressing the **Share log file** butt
 
   **/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/latestlog.txt**
 
-1. Open amethyst and press "open game directory".
+1. Open Amethyst and press "open game directory".
 
 Or
 
