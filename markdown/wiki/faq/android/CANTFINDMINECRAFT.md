@@ -5,14 +5,17 @@ As with the log file, there are mutiple ways to do this.
 
   **/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft**
 
-1a. Press "Open game directory in Amethyst.
-1b. Install [Files by Marc apps & software](https://play.google.com/store/apps/details?id=com.marc.files) from Play Store.
+1. Press "Open game directory in Amethyst
 2. Press the 3 dots in the top right corner → **Show hidden files**
-3. Press the 3 lines in the top left corner → Amethyst → .minecraft
+3. Open .minecraft
 
-If Amethyst does not appear in the 3 lines menu, try closing (or opening) Pojav. If that doesn't work, try restarting your phone.
-You can also use [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (or [MiXplorer](https://mixplorer.com/)) with [Shizuku](https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api&hl=en_US) to access it.
+### If you want to copy a file/folder there
 
+1. Press "Open game directory" in Amethyst
+2. Press the 3 dots in the top right corner → **Show hidden files**
+3. Press 3 lines in top left corner → your phone → Downloads
+4. Select the files/folders → press the 3 dots in the top right corner → **Copy to...**
+5. Press 3 lines in top left corner → Amethyst → .minecraft
 
 ## Android 9 and older <!-- TODO: fix the path here too -->
 
