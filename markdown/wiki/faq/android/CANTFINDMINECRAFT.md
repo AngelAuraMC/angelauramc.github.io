@@ -21,4 +21,4 @@ As with the log file, there are mutiple ways to do this.
 
   **/storage/emulated/0/games/PojavLauncher/.minecraft**
 
-All file managers can access this directory. [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) and [MiXplorer](https://mixplorer.com/) are recommended.
+All file managers can access this directory. [Amaze File Utils](https://play.google.com/store/apps/details?id=com.amaze.fileutilities&hl=en), [Ghost Commander](https://play.google.com/store/apps/details?id=com.amaze.fileutilities&hl=en) and [MiXplorer](https://mixplorer.com/) are recommended.
