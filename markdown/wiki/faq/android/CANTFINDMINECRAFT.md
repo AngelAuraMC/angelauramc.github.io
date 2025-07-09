@@ -17,7 +17,7 @@ As with the log file, there are mutiple ways to do this.
 4. Select the files/folders → press the 3 dots in the top right corner → **Copy to...**
 5. Press 3 lines in top left corner → Amethyst → .minecraft
 
-## Android 9 and older <!-- TODO: fix the path here too -->
+## Android 9 and older
 
   **/storage/emulated/0/games/Amethyst/.minecraft**
 
