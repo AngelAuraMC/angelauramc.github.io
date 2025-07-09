@@ -8,7 +8,7 @@ There are mutiple ways to do this. Usually, pressing the **Share log file** butt
 1. Open Amethyst and press "Open game directory".
 2. Press the 3 lines in the top left corner → Amethyst → latestlog.txt
 
-## Android 9 and older <!-- TODO: update path to the log on andod 9 and older --><!-- "andod" lmao -->
+## Android 9 and older
 
   **/storage/emulated/0/games/Amethyst/latestlog.txt**
   
