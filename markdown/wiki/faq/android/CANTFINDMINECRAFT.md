@@ -19,6 +19,6 @@ As with the log file, there are mutiple ways to do this.
 
 ## Android 9 and older <!-- TODO: fix the path here too -->
 
-  **/storage/emulated/0/games/PojavLauncher/.minecraft**
+  **/storage/emulated/0/games/Amethyst/.minecraft**
 
 All file managers can access this directory. [Amaze File Utils](https://play.google.com/store/apps/details?id=com.amaze.fileutilities&hl=en), [Ghost Commander](https://play.google.com/store/apps/details?id=com.amaze.fileutilities&hl=en) and [MiXplorer](https://mixplorer.com/) are recommended.
