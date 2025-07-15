@@ -3,7 +3,7 @@ Minecraft runs on OpenGL, and mobile devices generally only support OpenGL ES (G
 > All of the following renderers were tested using the same environment; Minecraft 1.21.1 with Optifine, 8 chunks, running on a Snapdragon 778g at 80% resolution scale, with Fast graphics and smooth lighting.
 
 ## Holy GL4ES
-- Optimized for performance, Holy GL4ES is the default renderer in PojavLauncher and should be used in almost all scenrarios. 
+- Optimized for performance, Holy GL4ES is the default renderer in Amethyst and should be used in almost all scenrarios. 
 - Supports OpenGL 2.1 and has shader converting capabilities, thus makes up for about 1/8 of the OpenGL 3.x standard.
 - Only works on version 1.21.4 and below.
 ### A screenshot of Holy GL4ES running Minecraft 1.21.1
