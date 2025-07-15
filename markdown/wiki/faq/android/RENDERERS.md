@@ -12,7 +12,7 @@ Minecraft runs on OpenGL, and mobile devices generally only support OpenGL ES (G
 ## MobileGlues
 - Fast/Mid, faster than ANGLE and a bit slower than GL4ES. Runs on OpenGLES 3.0+ (3.2 is recommended).
 - Export OpenGL 4.0 (confirmed by MG Dev).
-- Supports some shaders mods and resource packs that won't work with GL4ES/ANGLE
+- Supports some shaders mods and resource packs that won't work with GL4ES
 - Only works on version 1.17+
 
 ### A screenshot of MobileGlues running Minecraft 1.21.1
