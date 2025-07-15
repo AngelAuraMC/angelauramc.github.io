@@ -10,8 +10,8 @@ Minecraft runs on OpenGL, and mobile devices generally only support OpenGL ES (G
 ![holygl4es](https://raw.githubusercontent.com/whal-whales/random-imgs-repo-for-stuff/refs/heads/main/2024-09-22_12.32.23.png)
 
 ## MobileGlues
-- Fast/Mid, faster than ANGLE and a bit slower than GL4ES. Runs on OpenGLES 3.0+ (3.2 is recommended).
-- Export OpenGL 4.0 (confirmed by MG Dev).
+- fast/mid. A middle ground between Zink's good GL compatibility and GL4ES speed. Requires OpenGLES 3.0 to work, and 3.1-3.2 for better compatibility and performance."
+- Export OpenGL 4.0 (partial 4.3 if "Enable Incomplete OpenGL43 extension" option is enabled in Extra Renderer Settings).
 - Supports some shaders mods and resource packs that won't work with GL4ES
 - Only works on version 1.17+
 
