@@ -7,56 +7,48 @@ On Apple's mobile platforms (iOS, iPadOS, and _tvOS*_ in our case), a security f
 
 (*) - tvOS support coming soon!
 
-## What does this mean for PojavLauncher?
+## What does this mean for Amethyst?
 
 ### Jailbroken devices
-Users with Jailbroken devices don't need to worry about JIT requirements, as PojavLauncher is specially built to detect jailbreaks and automatically enable JIT.
+Users with Jailbroken devices don't need to worry about JIT requirements, as Amethyst is specially built to detect jailbreaks and automatically enable JIT. This is the preferred installation method.
 
 ### Unjailbroken devices
-Users with Unjailbroken devices can see two different outcomes, based on what they used to sideload PojavLauncher.
+Users with Unjailbroken devices can see two different outcomes, depending on what they used to sideload Amethyst.
 
 #### TrollStore
-If you used TrollStore to sideload PojavLauncher, good news: PojavLauncher takes advantage of the extended entitlements granted by TrollStore and automatically enables JIT when launched. **(Turn on URL Schemes)**
+If you used TrollStore to sideload Amethyst, good news: Amethyst takes advantage of the extended entitlements granted by TrollStore and automatically enables JIT when launched.
+
+Do note, however that you **must** turn on URL Schemes in TrollStore to grant JIT to Amethyst.
 
 #### Normal sideload
-If you sideload normally, you will need to enable JIT in some way. The most common method is to attach a debug server to the application while it's running - AltStore, SideStore, StikDebug, SideJITServer, and Jitterbug all use this method to enable JIT. 
-
-The only downside to this method is that you are often required to be connected to a Wi-Fi network in order to enable JIT. 
+If you sideload normally, you will need to enable JIT in some way. Depending on your version of iOS, your method of enabling JIT will differ, due to Apple's changes to their operating systems.
 
 ## What are the methods to enable JIT?
 
-The methods to enable JIT for each iOS version can be found [here](https://github.com/C4ndyF1sh/iOS-JIT-Enablers).
+Methods to enable JIT for each iOS version can be found [here](https://github.com/C4ndyF1sh/iOS-JIT-Enablers).
 
-Methods not listed underneath are not confirmed nor recommended by us for use with PojavLauncher.
+Methods not listed are not confirmed nor recommended by us for use with Amethyst.
 
 ## So how do I enable JIT?
 
-- [TrollStore Lite](https://havoc.app/package/trollstorelite) (!)
+- [TrollStore](https://ios.cfw.guide/installing-trollstore) (!)
 
-- [TrollStore](https://ios.cfw.guide/installing-trollstore) (@)
+- [SideStore](https://docs.sidestore.io/docs/faq/#can-i-activate-jit) (@)
 
-- [AltStore AltJIT](https://faq.altstore.io/how-to-use-altstore/altjit) (#)
+- [SideJITServer](https://github.com/nythepegasus/SideJITServer) (#)
 
-- [Jitterbug](https://github.com/osy/Jitterbug/tree/main/Jitterbug) ($)
+- [StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) (App Store App) ($)
 
-- [SideStore](https://docs.sidestore.io/docs/faq#can-i-activate-jit) ($), [nightly](https://github.com/SideStore/SideStore/releases/nightly) (^)
+- [JankJIT](https://gist.github.com/JJTech0130/142aee0f7bda9c61a421140d17afbdeb) (%)
 
-- [SideJITServer](https://github.com/nythepegasus/SideJITServer) (%)
+(!) - Limited to devices with the CoreTrust bug. (iOS 14.0 - iOS 16.7 RC & iOS 17.0)
 
-- [StikDebug](https://github.com/StephenDev0/StikDebug) (^)
+(@) - This method is mainly recommended for iOS 16.7.x
+- if on iPhone 8/8 Plus/X it is heavily recommended to install Amethyst via Trollstore Lite.
 
-(!) - Limited to Jailbroken devices only. (JIT is granted by the Jailbreak itself)
+(#) - Does not work for iOS 16.x or below. This method is meant for iOS 17.0.1 - 17.3.1 ONLY.
 
-(@) - Limited to devices with the CoreTrust bug. (iOS 14.0 - iOS 16.7 RC & iOS 17.0)
+($) - iOS 17.4+ only, iOS 18.4b1 excluded.
 
-(#) - AltJIT for iOS 17.0.1+ betas only works on macOS. Requires pymobiledevice3.
-
-($) - Does not work for iOS 17.0.1+, as enabling JIT will be done with pymobiledevice3.
-
-(%) - Does not work for iOS 16.x or below, use the other methods listed above to enable JIT. This method is meant for iOS 17.0.1+
-
-(^) - iOS 17.4+ Only
-
-## Methods coming Soon:
-
-- UTM SE (^)
+(%) - JankJIT only works on devices running iOS 18.4b1
+- if on iPad 7 it is heavily recommended to jailbreak and install Amethyst via TrollStore Lite.
