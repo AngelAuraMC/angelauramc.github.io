@@ -12,9 +12,9 @@ This list will be updated once in a while. Also please raise issues to get us aw
 ## Shader List
 | Status | Shader Name | Link | Bugs | Last Checked | Tested On |
 |--------|-------------|------|------|--------------|-----------|
-|⚠️|BSL Original|[Modrinth](https://modrinth.com/shader/bsl-shaders)|Might have rendering issues with mali and angle on some versions on some devices (tested on fabric 1.20.1, rest of versions seem to work)|20-01-2025|Samsung A53 5G|
-|⚠️|BSL Classic|[Modrinth](https://modrinth.com/shader/bsl-shaders-classic)|Might have rendering issues with mali and angle on some versions on some devices (tested on fabric 1.20.1, rest of versions seem to work)|20-01-2025|Samsung A53 5G|
-|✅|MakeUp-UltraFast|[Modrinth](https://modrinth.com/shader/makeup-ultra-fast-shaders)|Might have issues on fabric 1.20.1 on some malis|20-01-2025|Samsung A53 5G|
+|⚠️|BSL Original|[Modrinth](https://modrinth.com/shader/bsl-shaders)|Might have rendering issues with mali and angle on some versions on some devices|20-01-2025|Samsung A53 5G|
+|⚠️|BSL Classic|[Modrinth](https://modrinth.com/shader/bsl-shaders-classic)|Might have rendering issues with mali and angle on some versions on some devices|20-01-2025|Samsung A53 5G|
+|✅|MakeUp-UltraFast|[Modrinth](https://modrinth.com/shader/makeup-ultra-fast-shaders)|None|20-01-2025|Samsung A53 5G|
 
 
 ### Open4ES
