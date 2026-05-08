@@ -8,7 +8,8 @@ net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible 
 A potential solution has been determined, this may resolve your problem:
 	 - Install 'DEPENDANCY_MOD', any version between [version]- (inclusive) and [version]- (exclusive).
 More details:
-	 - Mod 'MOD_NAME' (modname) [version] requires any version between [version]- (inclusive) and [version]- (exclusive) of DEPENDANCY_MOD, which is missing!```
+	 - Mod 'MOD_NAME' (modname) [version] requires any version between [version]- (inclusive) and [version]- (exclusive) of DEPENDANCY_MOD, which is missing! ```
+
 
 The 'DEPENDANCY_MOD' is name of required dependancies that you did not install while MOD_NAME is name of the mod.
 
