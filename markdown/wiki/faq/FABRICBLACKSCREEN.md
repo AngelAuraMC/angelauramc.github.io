@@ -5,7 +5,7 @@ Launching Fabric sometimes (usually after adding a mod), gets stuck on indefinit
  To know what mods are causing the issue, check `latestlog.txt` file as it would show you what mod(s) are on incorrect versions, or what mod dependancies are missing and tells you the solution aswell. 
 
 # Notes: 
--This is not always the case and sometimes black screen might be caused due to other reasons aswell. In any case reading logs should help.
+- This is not always the case and sometimes black screen might be caused due to other reasons aswell. In any case reading logs should help.
 - The 'DEPENDANCY_MOD' mentioned below is name of required dependancies that you did not install while MOD_NAME is name of the mod.
 
 The log text should go something like this. 
