@@ -14,11 +14,11 @@ This list will be updated once in a while. Also please raise issues to get us aw
 ## Shader List
 | Status | Shader Name | Link | Bugs | Last Checked | Tested On |
 |--------|-------------|------|------|--------------|-----------|
-|⚠️|BSL Original|[Modrinth](https://modrinth.com/shader/bsl-shaders)|Might have rendering issues with mali and angle on some versions on some devices|20-01-2025|Samsung A53 5G|
-|⚠️|BSL Classic|[Modrinth](https://modrinth.com/shader/bsl-shaders-classic)|Might have rendering issues with mali and angle on some versions on some devices|20-01-2025|Samsung A53 5G|
-|✅|MakeUp-UltraFast|[Modrinth](https://modrinth.com/shader/makeup-ultra-fast-shaders)|None|20-01-2025|Samsung A53 5G|
-|⚠️|Complimentary Reimagined|[Modrinth](https://modrinth.com/shader/complementary-reimagined)|Might have some issues on malis, sometimes might require ANGLE enabled|Samsung A53 5G|
-|✅|Mellow Shader|[Modrinth](https://modrinth.com/shader/mellow)|None|Samsung A53 5G|
+|⚠️|BSL Original|[Modrinth](https://modrinth.com/shader/bsl-shaders)|Might have rendering issues with mali and angle on some versions on some devices|30-09-2025|Samsung A53 5G|
+|⚠️|BSL Classic|[Modrinth](https://modrinth.com/shader/bsl-shaders-classic)|Might have rendering issues with mali and angle on some versions on some devices|30-09-2025|Samsung A53 5G|
+|✅|MakeUp-UltraFast|[Modrinth](https://modrinth.com/shader/makeup-ultra-fast-shaders)|None|30-09-2025|Samsung A53 5G|
+|⚠️|Complimentary Reimagined|[Modrinth](https://modrinth.com/shader/complementary-reimagined)|Might have some issues on malis, sometimes might require ANGLE enabled|30-09-2025|Samsung A53 5G|
+|✅|Mellow Shader|[Modrinth](https://modrinth.com/shader/mellow)|None|30-09-2025|Samsung A53 5G|
 
 
 ### Open4ES
