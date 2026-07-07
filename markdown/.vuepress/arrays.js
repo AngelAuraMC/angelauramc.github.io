@@ -71,6 +71,7 @@ export const Going_Further = {
     "CUSTOM-MC", // Custom Minecraft!
     "MODPACKS", // Everything you need to know about Modpacks support.
     "PROBLEMATIC-MODS-COMMON-FIXES", // List of available fixes for popular modpacks.
+    "MANUAL-LAYOUT-EDITING", // Guide to editing controls in text editors
     "ENV-VARS", // Using environment variables.
     "JAVA-ARGS", // Adding custom Java arguments.
   ],
