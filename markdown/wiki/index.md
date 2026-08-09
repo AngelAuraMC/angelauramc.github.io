@@ -1,4 +1,4 @@
-
+н
 # Welcome to the Amethyst Wiki!
 ____
 * Get started by [installing Amethyst](./getting_started/INSTALL)!
