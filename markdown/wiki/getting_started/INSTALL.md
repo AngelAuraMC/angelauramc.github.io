@@ -12,7 +12,7 @@ If you want the latest and greatest to test before the official release, you can
 
 **Using Github (requires an account):**
 
-1. Start off by heading to the [Amethyst](https://https://github.com/AngelAuraMC/Amethyst-Android) repository and switching to the "Actions" tab.
+1. Start off by heading to the [Amethyst](https://github.com/AngelAuraMC/Amethyst-Android) repository and switching to the "Actions" tab.
 
 ![](./images/INSTALL/android/INSTALL1.png)
 
